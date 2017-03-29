@@ -1,0 +1,405 @@
+2016/07/28 16:27:04 [alert] 8756#9192: lua_code_cache is off; this will hurt performance in e:/openresty-test/conf/nginx.conf:9
+2016/07/28 16:27:04 [alert] 4612#2924: lua_code_cache is off; this will hurt performance in e:/openresty-test/conf/nginx.conf:9
+2016/07/28 16:27:09 [error] 4612#5656: *1 failed to load external Lua file "e:/openresty-test/lua/query_redis.lua": cannot open e:/openresty-test/lua/query_redis.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/28 16:27:09 [error] 4612#5656: *1 CreateFile() "e:/openresty-test/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:6699", referrer: "http://localhost:6699/area2/"
+2016/07/28 16:31:01 [alert] 2052#960: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/28 16:43:27 [alert] 6964#6992: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/28 16:43:28 [alert] 7456#7724: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/28 16:44:34 [error] 7456#7520: *1 lua tcp socket connect timed out, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/28 16:44:35 [error] 7456#7520: *1 lua tcp socket connect timed out, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/28 16:44:35 [error] 7456#7520: *1 CreateFile() "e:\openresty-test/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:6699", referrer: "http://localhost:6699/area2/"
+2016/07/28 16:45:08 [error] 7456#7520: *1 lua tcp socket connect timed out, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/28 16:52:48 [error] 7456#7520: *10 lua tcp socket connect timed out, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:10:06 [alert] 6188#6196: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:10:06 [alert] 8832#9940: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:10:10 [error] 8832#5304: *1 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/home/resty/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'E:\openresty-1.9.15.1-win32\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:1: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:10:10 [error] 8832#5304: *2 CreateFile() "e:\openresty-test/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:6699", referrer: "http://localhost:6699/area2/"
+2016/07/29 09:22:46 [error] 8832#5304: *5 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/home/resty/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'E:\openresty-1.9.15.1-win32\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:1: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:25:23 [error] 8832#5304: *9 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/home/resty/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'E:\openresty-1.9.15.1-win32\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:1: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:25:25 [error] 8832#5304: *10 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file '/usr/local/share/lua/5.1/config.lua'
+	no file '/home/resty/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'E:\openresty-1.9.15.1-win32\config.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:1: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:27:06 [alert] 808#9632: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:27:06 [notice] 808#9632: signal process started
+2016/07/29 09:27:06 [alert] 6188#6196: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:27:06 [alert] 7256#7276: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:27:14 [error] 7256#4268: *12 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:5: module 'resty.redis' not found:
+	no field package.preload['resty.redis']
+	no file 'e:/openresty-test/lua/resty\redis.lua'
+	no file './lualib/resty\redis.so'
+	no file '.\resty\redis.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\resty\redis.so'
+	no file 'E:\openresty-1.9.15.1-win32\resty\redis.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\resty.so'
+	no file 'E:\openresty-1.9.15.1-win32\resty.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:5: in function 'query_slave_redis'
+	e:\openresty-test/lua/query_redis.lua:66: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 09:27:34 [alert] 10080#10064: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:27:34 [notice] 10080#10064: signal process started
+2016/07/29 09:27:34 [alert] 6188#6196: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:27:34 [alert] 4472#2504: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:29:48 [alert] 7592#7836: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:29:48 [notice] 7592#7836: signal process started
+2016/07/29 09:29:48 [alert] 6188#6196: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:29:48 [alert] 7444#6548: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 09:29:56 [error] 7444#3384: *14 lua tcp socket connect timed out, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 10:19:23 [alert] 10000#876: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 10:19:23 [notice] 10000#876: signal process started
+2016/07/29 10:19:23 [alert] 6188#6196: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 10:19:23 [alert] 420#6580: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 10:19:28 [error] 420#8728: *18 lua entry thread aborted: runtime error: e:\openresty-test/lua/query_redis.lua:5: module 'resty.redis' not found:
+	no field package.preload['resty.redis']
+	no file 'e:/openresty-test/lua/resty\redis.lua'
+	no file './lualib/resty\redis.so'
+	no file '.\resty\redis.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\resty\redis.so'
+	no file 'E:\openresty-1.9.15.1-win32\resty\redis.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'E:\openresty-1.9.15.1-win32\lualib\resty.so'
+	no file 'E:\openresty-1.9.15.1-win32\resty.dll'
+	no file 'E:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	e:\openresty-test/lua/query_redis.lua:5: in function 'query_slave_redis'
+	e:\openresty-test/lua/query_redis.lua:66: in function <e:\openresty-test/lua/query_redis.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/07/29 10:58:39 [alert] 5508#8300: lua_code_cache is off; this will hurt performance in e:\openresty-test/conf/nginx.conf:9
+2016/07/29 10:58:39 [notice] 5508#8300: signal process started
+2016/09/29 15:56:26 [alert] 3512#1980: lua_code_cache is off; this will hurt performance in d:\openresty-limit/conf/nginx.conf:9
+2016/09/29 15:56:26 [alert] 5448#5264: lua_code_cache is off; this will hurt performance in d:\openresty-limit/conf/nginx.conf:9
+2016/09/29 15:56:58 [error] 5448#4328: *1 lua entry thread aborted: runtime error: d:\openresty-limit/lua/limit_rate.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file 'e:/openresty-limit/lua/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'D:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'D:\openresty-1.9.15.1-win32\config.dll'
+	no file 'D:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	d:\openresty-limit/lua/limit_rate.lua:1: in function <d:\openresty-limit/lua/limit_rate.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/09/29 15:56:58 [error] 5448#4328: *2 CreateFile() "d:\openresty-limit/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:6699", referrer: "http://localhost:6699/area2/"
+2016/09/29 15:57:54 [error] 5448#4328: *2 lua entry thread aborted: runtime error: d:\openresty-limit/lua/limit_rate.lua:1: module 'config' not found:
+	no field package.preload['config']
+	no file 'e:/openresty-limit/lua/config.lua'
+	no file './lualib/config.so'
+	no file '.\config.dll'
+	no file 'D:\openresty-1.9.15.1-win32\lualib\config.so'
+	no file 'D:\openresty-1.9.15.1-win32\config.dll'
+	no file 'D:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	d:\openresty-limit/lua/limit_rate.lua:1: in function <d:\openresty-limit/lua/limit_rate.lua:1>, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/09/29 15:58:27 [alert] 1696#7160: lua_code_cache is off; this will hurt performance in d:\openresty-limit/conf/nginx.conf:9
+2016/09/29 15:58:27 [notice] 1696#7160: signal process started
+2016/09/29 15:58:27 [alert] 3512#1980: lua_code_cache is off; this will hurt performance in d:\openresty-limit/conf/nginx.conf:9
+2016/09/29 15:58:27 [alert] 1640#5336: lua_code_cache is off; this will hurt performance in d:\openresty-limit/conf/nginx.conf:9
+2016/09/29 15:58:32 [error] 1640#1712: *7 [lua] limit_rate.lua:10: failed to instantiate a resty.limit.req object: shared dict not found, client: 127.0.0.1, server: , request: "GET /area2/ HTTP/1.1", host: "localhost:6699"
+2016/11/15 09:14:20 [alert] 9524#4260: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 09:14:20 [alert] 7924#8520: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:21:19 [alert] 9972#4696: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:21:19 [emerg] 9972#4696: unexpected "}" in d:\openresty-abtest/conf/nginx.conf:23
+2016/11/15 10:22:13 [alert] 5924#10756: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:22:13 [notice] 5924#10756: signal process started
+2016/11/15 10:22:13 [alert] 9524#4260: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:22:13 [alert] 848#8320: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:22:41 [alert] 11228#10300: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:22:41 [notice] 11228#10300: signal process started
+2016/11/15 10:22:41 [alert] 9524#4260: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:22:41 [alert] 10568#9504: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:22:47 [error] 10568#11192: *1 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:22:47 [error] 10568#11192: *1 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:22:47 [error] 10568#11192: *1 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:22:47 [error] 10568#11192: *1 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:22:47 [error] 10568#11192: *1 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:36 [error] 10568#11192: *2 lua entry thread aborted: runtime error: d:\openresty-abtest/lua/abtest.lua:4: attempt to call global 'get_real_ip' (a nil value)
+stack traceback:
+coroutine 0:
+	d:\openresty-abtest/lua/abtest.lua: in function <d:\openresty-abtest/lua/abtest.lua:1>, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:44 [error] 10568#11192: *3 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:44 [error] 10568#11192: *3 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:44 [error] 10568#11192: *3 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:44 [error] 10568#11192: *3 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:44 [error] 10568#11192: *3 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:53 [error] 10568#11192: *4 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:53 [error] 10568#11192: *4 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:53 [error] 10568#11192: *4 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:53 [error] 10568#11192: *4 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:53 [error] 10568#11192: *4 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:54 [error] 10568#11192: *5 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:54 [error] 10568#11192: *5 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:54 [error] 10568#11192: *5 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:54 [error] 10568#11192: *5 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:54 [error] 10568#11192: *5 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:54 [error] 10568#11192: *6 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:54 [error] 10568#11192: *6 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:54 [error] 10568#11192: *6 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:54 [error] 10568#11192: *6 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:23:54 [error] 10568#11192: *6 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:27:52 [error] 10568#11192: *7 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:27:52 [error] 10568#11192: *7 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:27:52 [error] 10568#11192: *7 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:27:52 [error] 10568#11192: *7 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:27:52 [error] 10568#11192: *7 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:28:28 [alert] 8640#10112: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:28:28 [notice] 8640#10112: signal process started
+2016/11/15 10:28:30 [alert] 9524#4260: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:28:30 [alert] 10748#2356: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:28:38 [error] 10748#5524: *8 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:28:38 [error] 10748#5524: *8 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:28:38 [error] 10748#5524: *8 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:28:38 [error] 10748#5524: *8 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:28:38 [error] 10748#5524: *8 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:27 [alert] 10704#10248: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:29:27 [notice] 10704#10248: signal process started
+2016/11/15 10:29:27 [alert] 9524#4260: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:29:27 [alert] 11004#7408: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:29:35 [error] 11004#10640: *9 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:35 [error] 11004#10640: *9 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:35 [error] 11004#10640: *9 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:35 [error] 11004#10640: *9 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:35 [error] 11004#10640: *9 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *10 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *10 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *10 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *10 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *10 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *11 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *11 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *11 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *11 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *11 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *12 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *12 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *12 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *12 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:36 [error] 11004#10640: *12 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:29:54 [error] 11004#10640: *13 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.1", host: "localhost:99"
+2016/11/15 10:29:54 [error] 11004#10640: *13 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.1", host: "localhost:99"
+2016/11/15 10:29:54 [error] 11004#10640: *13 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.1", host: "localhost:99"
+2016/11/15 10:29:54 [error] 11004#10640: *13 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.1", host: "localhost:99"
+2016/11/15 10:29:54 [error] 11004#10640: *13 CreateFile() "d:\openresty-abtest/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:99", referrer: "http://localhost:99/abtest"
+2016/11/15 10:30:24 [error] 11004#10640: *16 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:30:24 [error] 11004#10640: *16 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:30:24 [error] 11004#10640: *16 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:30:24 [error] 11004#10640: *16 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:30:24 [error] 11004#10640: *16 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:31:49 [error] 11004#10640: *17 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:31:49 [error] 11004#10640: *17 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:31:49 [error] 11004#10640: *17 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:31:49 [error] 11004#10640: *17 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:31:49 [error] 11004#10640: *17 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:32:49 [error] 11004#10640: *18 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:32:49 [error] 11004#10640: *18 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:32:49 [error] 11004#10640: *18 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:32:49 [error] 11004#10640: *18 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:32:49 [error] 11004#10640: *18 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:06 [alert] 10676#3844: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:33:06 [notice] 10676#3844: signal process started
+2016/11/15 10:33:06 [alert] 9524#4260: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:33:06 [alert] 11212#4584: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:33:09 [error] 11212#11232: *19 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *19 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *19 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *19 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *19 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *20 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *20 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *20 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *20 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *20 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *21 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *21 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *21 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *21 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:33:09 [error] 11212#11232: *21 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:36:01 [error] 11212#11232: *22 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:36:01 [error] 11212#11232: *22 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:36:01 [error] 11212#11232: *22 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:36:01 [error] 11212#11232: *22 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:36:01 [error] 11212#11232: *22 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:37:58 [error] 11212#11232: *23 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:37:58 [error] 11212#11232: *23 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:37:58 [error] 11212#11232: *23 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:37:58 [error] 11212#11232: *23 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:37:58 [error] 11212#11232: *23 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:37:58 [error] 11212#11232: *24 CreateFile() "d:\openresty-abtest/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:99", referrer: "http://localhost/abtest"
+2016/11/15 10:39:05 [error] 11212#11232: *25 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:39:05 [error] 11212#11232: *25 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:39:05 [error] 11212#11232: *25 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:39:05 [error] 11212#11232: *25 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:39:05 [error] 11212#11232: *25 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:39:58 [error] 11212#11232: *26 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:39:58 [error] 11212#11232: *26 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:39:58 [error] 11212#11232: *26 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:39:58 [error] 11212#11232: *26 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:39:58 [error] 11212#11232: *26 CreateFile() "d:\openresty-abtest/html/abtest" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:41:07 [alert] 9884#4764: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:41:07 [notice] 9884#4764: signal process started
+2016/11/15 10:41:07 [alert] 9524#4260: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:41:07 [alert] 10672#9164: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:41:14 [error] 10672#11004: *27 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:41:14 [error] 10672#11004: *27 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:41:14 [error] 10672#11004: *27 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:41:14 [error] 10672#11004: *27 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:42:04 [error] 10672#11004: *28 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:42:04 [error] 10672#11004: *28 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:42:04 [error] 10672#11004: *28 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:42:04 [error] 10672#11004: *28 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:43:58 [alert] 2436#2916: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:43:58 [notice] 2436#2916: signal process started
+2016/11/15 10:43:58 [alert] 9524#4260: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:43:58 [alert] 10748#848: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:44:04 [error] 10748#9504: *30 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:44:04 [error] 10748#9504: *30 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:44:04 [error] 10748#9504: *30 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:44:04 [error] 10748#9504: *30 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:48:08 [error] 10748#9504: *31 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:48:08 [error] 10748#9504: *31 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:48:08 [error] 10748#9504: *31 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:48:08 [error] 10748#9504: *31 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:48:08 [error] 10748#9504: *31 lua entry thread aborted: runtime error: d:\openresty-abtest/lua/abtest.lua:34: module 'resty.redis_iresty' not found:
+	no field package.preload['resty.redis_iresty']
+	no file 'd:/openresty-abtest/lua/resty\redis_iresty.lua'
+	no file './lualib/resty\redis_iresty.so'
+	no file '.\resty\redis_iresty.dll'
+	no file 'D:\openresty-1.9.15.1-win32\lualib\resty\redis_iresty.so'
+	no file 'D:\openresty-1.9.15.1-win32\resty\redis_iresty.dll'
+	no file 'D:\openresty-1.9.15.1-win32\loadall.dll'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\openresty-1.9.15.1-win32\lualib\resty.so'
+	no file 'D:\openresty-1.9.15.1-win32\resty.dll'
+	no file 'D:\openresty-1.9.15.1-win32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	d:\openresty-abtest/lua/abtest.lua:34: in function 'get_ip_from_redis'
+	d:\openresty-abtest/lua/abtest.lua:49: in function <d:\openresty-abtest/lua/abtest.lua:1>, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:49:15 [error] 10748#9504: *32 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:49:15 [error] 10748#9504: *32 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:49:15 [error] 10748#9504: *32 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:49:15 [error] 10748#9504: *32 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:49:15 [error] 10748#9504: *32 lua entry thread aborted: runtime error: d:\openresty-abtest/lua/abtest.lua:35: attempt to index field 'redis' (a nil value)
+stack traceback:
+coroutine 0:
+	d:\openresty-abtest/lua/abtest.lua: in function 'get_ip_from_redis'
+	d:\openresty-abtest/lua/abtest.lua:49: in function <d:\openresty-abtest/lua/abtest.lua:1>, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:18 [error] 10748#9504: *33 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:18 [error] 10748#9504: *33 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:18 [error] 10748#9504: *33 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:18 [error] 10748#9504: *33 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:18 [error] 10748#9504: *33 lua entry thread aborted: runtime error: d:\openresty-abtest/lua/abtest.lua:35: attempt to index field 'redis' (a nil value)
+stack traceback:
+coroutine 0:
+	d:\openresty-abtest/lua/abtest.lua: in function 'get_ip_from_redis'
+	d:\openresty-abtest/lua/abtest.lua:49: in function <d:\openresty-abtest/lua/abtest.lua:1>, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:25 [alert] 10664#3368: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:50:25 [notice] 10664#3368: signal process started
+2016/11/15 10:50:25 [alert] 9524#4260: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:50:25 [alert] 10968#5652: lua_code_cache is off; this will hurt performance in d:\openresty-abtest/conf/nginx.conf:9
+2016/11/15 10:50:27 [error] 10968#5724: *34 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:27 [error] 10968#5724: *34 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:27 [error] 10968#5724: *34 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:27 [error] 10968#5724: *34 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:27 [error] 10968#5724: *34 lua entry thread aborted: runtime error: d:\openresty-abtest/lua/abtest.lua:35: attempt to index field 'redis' (a nil value)
+stack traceback:
+coroutine 0:
+	d:\openresty-abtest/lua/abtest.lua: in function 'get_ip_from_redis'
+	d:\openresty-abtest/lua/abtest.lua:49: in function <d:\openresty-abtest/lua/abtest.lua:1>, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:28 [error] 10968#5724: *35 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:28 [error] 10968#5724: *35 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:28 [error] 10968#5724: *35 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:28 [error] 10968#5724: *35 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:28 [error] 10968#5724: *35 lua entry thread aborted: runtime error: d:\openresty-abtest/lua/abtest.lua:35: attempt to index field 'redis' (a nil value)
+stack traceback:
+coroutine 0:
+	d:\openresty-abtest/lua/abtest.lua: in function 'get_ip_from_redis'
+	d:\openresty-abtest/lua/abtest.lua:49: in function <d:\openresty-abtest/lua/abtest.lua:1>, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:28 [error] 10968#5724: *36 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:28 [error] 10968#5724: *36 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:28 [error] 10968#5724: *36 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:28 [error] 10968#5724: *36 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:50:28 [error] 10968#5724: *36 lua entry thread aborted: runtime error: d:\openresty-abtest/lua/abtest.lua:35: attempt to index field 'redis' (a nil value)
+stack traceback:
+coroutine 0:
+	d:\openresty-abtest/lua/abtest.lua: in function 'get_ip_from_redis'
+	d:\openresty-abtest/lua/abtest.lua:49: in function <d:\openresty-abtest/lua/abtest.lua:1>, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:54:55 [error] 10968#5724: *37 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:54:55 [error] 10968#5724: *37 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:54:55 [error] 10968#5724: *37 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:54:55 [error] 10968#5724: *37 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:55:03 [error] 10968#5724: *38 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:55:03 [error] 10968#5724: *38 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:55:03 [error] 10968#5724: *38 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:55:03 [error] 10968#5724: *38 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:55:03 [error] 10968#5724: *38 lua entry thread aborted: runtime error: d:\openresty-abtest/lua/abtest.lua:35: attempt to index field 'redis' (a nil value)
+stack traceback:
+coroutine 0:
+	d:\openresty-abtest/lua/abtest.lua: in function 'get_ip_from_redis'
+	d:\openresty-abtest/lua/abtest.lua:42: in function <d:\openresty-abtest/lua/abtest.lua:1>, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:56:41 [error] 10968#5724: *39 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:56:41 [error] 10968#5724: *39 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:56:41 [error] 10968#5724: *39 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:56:41 [error] 10968#5724: *39 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:57:03 [error] 10968#5724: *41 [lua] abtest.lua:4: get_real_ip(): ======================================x-forwarded-for:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:57:03 [error] 10968#5724: *41 [lua] abtest.lua:5: get_real_ip(): ======================================Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:57:03 [error] 10968#5724: *41 [lua] abtest.lua:6: get_real_ip(): ======================================WL-Proxy-Client-IP:nil, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
+2016/11/15 10:57:03 [error] 10968#5724: *41 [lua] abtest.lua:7: get_real_ip(): ======================================remote_addr:127.0.0.1, client: 127.0.0.1, server: , request: "GET /abtest HTTP/1.0", host: "127.0.0.1:99"
